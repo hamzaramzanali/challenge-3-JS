@@ -18,7 +18,7 @@ function writePassword() {
 generateBtn.addEventListener("click", writePassword);
 
 function generatePassword() {
-  // this was done with the help of the great ta paul
+  // I used the code that Paul the TA had written for us in hours to start the project.
   var availableCharacters = '';
   var completedPassword = '';
   // THEN I am presented with a series of prompts for password criteria
@@ -55,11 +55,11 @@ function generatePassword() {
     if (wantLower) {
       availableCharacters = availableCharacters + 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.toLowerCase();
     }
-
+    // checks to see if special characters are desired and adds the characters to the bank of available
     if (wantSpecialCharacters) {
       availableCharacters = availableCharacters + `!#%&()*+,-./:;<=>?@[\]^_~`
     }
-
+    // checks to see if numers are desired and adds the characters to the bank of available
     if (wantNumerics) {
       availableCharacters = availableCharacters + `1234567890`
     }

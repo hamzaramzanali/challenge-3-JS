@@ -1,1 +1,2 @@
 # challenge-3-JS
+This challenge was to create a random password generator. We were given the HTML and CSS and had to make changes to the JavaScript. The password needed to contain numeric values, lowercase and uppercase letters, and special characters. We had to make prompts pop up to let the user decide what type of characters they wanted in their password. We had to limit the length of the password between 8 and 128 characters. I used the code and pseudocode TA Paul had written for us in hours to get started on the challenge.
